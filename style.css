@@ -1,0 +1,48 @@
+.h1 {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    margin: 0;
+    /* Elimina los márgenes por defecto de la página */
+}
+
+.contenedor-padre {
+    display: flex;
+    /* Activa Flexbox y alinea los hijos en fila */
+    gap: 20px;
+    /* Crea una separación entre los dos cuadros */
+}
+
+.Deportes {
+    width: 200px;
+    /* Ancho del cuadro */
+    height: 200px;
+    /* Alto del cuadro */
+    background-color: #3498db;
+    /* Color de fondo */
+    border: 2px solid #2980b9;
+    /* Borde del cuadro */
+    border-radius: 8px;
+    /* Opcional: bordes redondeados */
+
+}
+
+.videojuegos {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+}
+
+.Peliculas {
+    width: 200px;
+    height: 200px;
+    background-color: #2980b9;
+    border: 2px solid burlywood;
+    border-radius: 8px;
+}
+
+.Parrafos {}
